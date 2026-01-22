@@ -120,6 +120,7 @@ struct ProfileView: View {
                             Text("Español").tag("es")
                             Text("Français").tag("fr")
                             Text("Chinese").tag("zh")
+                            Text("German").tag("de")
                         } label: {
                             SettingRowView(imageName: "globe", title: "Language", tintColor: .cyan)
                         }
